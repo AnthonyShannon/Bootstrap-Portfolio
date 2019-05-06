@@ -11,7 +11,7 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 var database = firebase.database();
-var newDateAdded = moment().format("LL")
+var newDateAdded = moment().format("LLLL")
 
 
 $("#submitButton").on("click", function () {
